@@ -1,1 +1,9 @@
-A
+class ClassSection:
+    name = "Marwin Sevilla"
+    section = "BSIT 2B"
+
+username = ClassSection()
+section2 = ClassSection()
+
+print(f"My name is {username.name}")
+print(section2.section)
